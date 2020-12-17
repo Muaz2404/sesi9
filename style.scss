@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav {
+    border-left: 2px solid rgb(212, 212, 212);
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+
+    .gambarnav {
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+    
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin: 20px;
+            display: inline;
+        }
+    
+        li:nth-child(4) {
+            margin-bottom: 0px;
+        }
+    }
+}
+hr {
+    margin-right: 10px;
+    justify-content: center;
+    width: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.dropdown-child {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    background-color: #f9f9f9;
+    
+    li {
+        display: block;
+        line-height: 50px;
+        padding-left: 2rem;
+    }
+
+}
+.secondary-menu ul {
+    padding-left: 0%;
+}
+.konten .kiri .isi ul>li {
+    margin: 0px 0px 0px 20px;
+    display: inline;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.konten .kanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    z-index: 20;
+    justify-content: center;
+}
+
+#kedua
+.bottom {
+	display: flex;
+    width: 30%;
+    float: right;
+    padding-right: 25px;   
+
+    img{
+        width: 28%;
+        height: auto;
+        object-fit: cover;
+        padding: 0px 0px 0px 120px
+    }
+    
+    h3{
+        padding-left: 105px;
+        padding-bottom: 7px;
+        color: #ffff;
+        font-family: 'Times New Roman', sans-serif;
+    }
+
+    p{
+        width: 65%;
+        text-align: center;
+        font-size: 8px;
+        padding-left: 60px;
+        letter-spacing: 1px;
+        font-family: 'Times New Roman', sans-serif;
+    
+    }
+}
+
+.bottom2 {
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    padding-right: 35px;
+ 
+    
+    img{
+        width: 28%;
+        object-fit: cover;
+        padding: 0px 0px 0px 120px
+    
+    }
+    h3{
+        padding-left: 105px;
+        padding-bottom: 7px;
+        color: #000;
+        font-family: 'Times New Roman', sans-serif;
+    }
+    p{
+        width: 65%;
+        text-align: center;
+        font-size: 8px;
+        padding-left: 60px;
+        letter-spacing: 1px;
+        font-family: 'Times New Roman', sans-serif; 
+    }
+
+}
+.bottom3 {
+    width: 30%; 
+    float: left;
+    
+ 
+    img{
+        width: 28%;
+        object-fit: cover;
+        padding: 0px 0px 0px 120px
+    
+    }
+    h3{
+        padding-left: 80px;
+        padding-bottom: 7px;
+        color: #000000; 
+    }
+    p{
+        width: 65%;
+        text-align: center;
+        font-size: 8px;
+        padding-left: 60px;
+        letter-spacing: 1px; 
+    }
+}
+
+
+
+#ketiga {
+    width: 100%;
+    height: 450px;
+    background-color: #1F211D;
+
+    .tiga {
+        display: flex;
+        padding: 100px 0;
+    }
+    .bagkiri {
+        width: 50%;
+        
+        bagkiri h1{
+            color:  #ffffff;
+            font-size: 45px;
+        }
+    }
+
+    .bagkanan {
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+
+        .copy {
+            margin-top: 130px;
+            display: flex;
+            justify-content: flex-end;
+            font-size: 20px;
+            color: white;
+        }
+        .footgambar {
+            display: flex;
+            margin-bottom: 80px;
+            justify-content: flex-end;
+            
+            img{
+                width: 80%;
+            }
+        }
+        
+        .footsatu {
+            margin: 50px 0px;
+            display: flex;
+            justify-content: flex-end;
+            
+            img{
+                margin-left: 20px;
+                width: 25px;
+                height: 25px;
+            
+            }
+            p {
+                color: white;
+                text-align: right;
+                /* line-height: 40px; */
+                font-size: 20px;
+            }
+
+        }
+        .footdua {
+            display: flex;
+            justify-content: flex-end;
+
+            img{
+                margin-left: 20px;
+                width: 25px;
+                height: 25px;
+
+            }
+            p {
+                font-size: 20px;
+                color: white;
+            }
+            br {
+                font-size: 20px;
+                   color: white;
+               }
+
+        }
+        #ketiga .row {
+            margin: 20px 0;
+
+            input, textarea{
+                width: 100%;
+                border-radius: 3px;
+                padding: 1em;
+                font-style: italic;
+                border: 1px solid black;
+            }
+        }
+        
+        
+    }
+}
+#keempat {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+
+    .judul {
+        margin-bottom: 40px;
+
+        h3 {
+            font-size: 36px;
+        
+        }
+        h1 {
+            font-size: 36px;
+            color: #A4D84F;
+            
+        }
+
+    }
+
+    h1{
+        justify-content: justify;
+    } 
+    .dua {
+        padding: 60px 0;
+    }
+    .isibawah {
+        display: flex;
+    }
+    .gambarkiri {
+        width: 40%;
+    }
+
+}
+
+#kelima {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+
+
+    .kontenkanan{
+        width: 40%;
+        text-align: justify;
+        margin-bottom: 90px;
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            font-weight: lighter;
+            color: #9a9a9a;
+            margin: 20px 0;
+        }
+    }
+    
+    .judul {
+        margin-bottom: 40px;
+        h1 {
+            font-size: 36px;
+            color: #A4D84F;
+            
+        }
+        h3 {
+            font-size: 36px;
+        }
+    }
+
+    .dua {
+        padding: 60px 0;
+    }
+    
+    .isibawah {
+        display: flex;
+    }
+    
+    .isibawah .gambarkiri {
+        width: 40%;
+    }
+    .isisbawah .gambarkanan {
+        width: 40%;
+    }
+}
